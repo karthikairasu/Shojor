@@ -9,6 +9,10 @@
     font-family: 'Bodoni MT';
     src: url('bodoni-mt.ttf');
 }
+@font-face {
+    font-family: 'Narkisim';
+    src: url('nrkis.ttf');
+}
 .ff_trajana{
   font-family: 'Trajana Sans 2';
 }
@@ -21,8 +25,14 @@
 .ff_ubuntu{
   font-family: 'Ubuntu', sans-serif;
 }
+.ff_abel{
+  font-family: 'Abel', sans-serif;
+}
 .ff_ibarra{
   font-family: 'Ibarra Real Nova', serif;
+}
+.ff_nrkis{
+  font-family: 'Narkisim';
 }
 .sd{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -196,8 +206,9 @@
   margin-top: -72px;
   padding-top: 72px;
 }
-.h_65px{
-  height: 65px;
+.cat_img:hover{
+  box-shadow: -5px -5px 4px 2px #c4c2c2, -3px -3px 4px 3px #e0dfdf, -2px -2px 3px 1px #efefef;
+  transform: scale(1.1);
 }
 /*--------------------------------------------------------------
 #aromatherapy
