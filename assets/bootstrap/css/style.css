@@ -1,0 +1,224 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+@font-face {
+    font-family: 'Trajana Sans 2';
+    src: url('Trajana Sans Light.ttf');
+}
+@font-face {
+    font-family: 'Bodoni MT';
+    src: url('bodoni-mt.ttf');
+}
+.ff_trajana{
+  font-family: 'Trajana Sans 2';
+}
+.ff_bodoni{
+  font-family: 'Bodoni MT';
+}
+.ff_roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.ff_ubuntu{
+  font-family: 'Ubuntu', sans-serif;
+}
+.ff_ibarra{
+  font-family: 'Ibarra Real Nova', serif;
+}
+.sd{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+.sd2{
+  box-shadow: 0px 1.5px 3px 0px rgba(0, 0, 0, 0.16);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}   
+.bg_darkblue{
+  background: #1C2346; 
+}
+.bg_lightgray{
+  background: #F5F7F8; 
+}
+.bg_lightskyblue{
+  background: #E8F0FD; 
+}
+.text_lightblue{
+  color: #547ead;
+}
+.text_darkblue{
+  color: #1C2346;
+}
+.text_darkgray{
+  color: #6d7184;
+}
+.text_lightgray{
+  color: #4b5156;
+}
+.fs-12{font-size: 12px!important;}
+.fs-13{font-size: 13px!important;}
+.fs-14{font-size: 14px!important;}
+.fs-16{font-size: 16px!important;}
+.fs-18{font-size: 18px!important;}
+.fs-20{font-size: 20px!important;}
+.fs-30{font-size: 30px!important;}
+.fs-33{font-size: 33px!important;}
+.fw-400{font-weight: 400;}
+.fw-800{font-weight: 800;}
+.fw-bold{font-weight: bold;}
+.fs-italic{font-style: italic;}
+.ws_nowrap{
+  white-space: nowrap;
+}
+.d_ac_jc{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.d_ae_jc{
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+}
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #fff;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #3fbbc0;
+  border-top-color: #ecf8f9;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*--------------------------------------------------------------
+# navbar
+--------------------------------------------------------------*/
+.top_nav .navbar-nav .nav-item .nav-link {
+    display: block;
+    padding: .8rem 1.5rem;
+}
+.top_nav .navbar-nav .nav-link {
+  color: rgb(143 143 143 / 94%);
+  font-weight: bold;
+}
+.top_nav .navbar-nav .active>.nav-link, .top_nav .navbar-nav .nav-link.active, .top_nav .navbar-nav .nav-link.show, .top_nav .navbar-nav .show>.nav-link {
+   color: rgb(176 86 239);
+   border-bottom: 2px solid #f6a704;
+}
+.top_nav .navbar-nav .nav-link:focus, .top_nav .navbar-nav .nav-link:hover {
+    color: rgb(176 86 239);
+    border-bottom: 2px solid #f6a704;
+}
+/*--------------------------------------------------------------
+#home
+--------------------------------------------------------------*/
+.home{
+  padding-top: 4.5rem; 
+}
+.bg_img {
+    background: linear-gradient(rgba(140,140,140,.05), rgba(140,140,140,.05)),url(../../images/banner3.png);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wel_card{
+   height: 86vh;
+   background: rgb(236 221 203 / 82%); 
+   border: none; 
+   box-shadow: 0px 0px 4px 2px #3c3c3c66, 0px 0px 3px 0px #0000005c;
+}
+.wel_card:before{
+    content: '';
+    background: url('../../images/top.png') top left no-repeat;
+    width: 100%;
+    height: 100%;
+    top: -8px;
+    left: -9px;
+    position: absolute;
+    background-size: contain;
+    opacity: .9;
+}
+/*--------------------------------------------------------------
+#product
+--------------------------------------------------------------*/
+.products{
+  padding-top: 4.5rem; 
+}
+.bt_rose{
+  border-top: 10px solid #fad483; 
+}
+.bb_lightrose{
+  border-bottom: 4px solid #fddfe4;
+}
+.bb_lightrose2{
+  border-bottom: 4px solid #fabec9
+}
+.product_content{
+  background: #f2e7d6;
+  margin-top: -72px;
+  padding-top: 72px;
+}
+.product_list{
+  background: #fff;
+  margin-top: -72px;
+  padding-top: 72px;
+}
+.h_65px{
+  height: 65px;
+}
+/*--------------------------------------------------------------
+#aromatherapy
+--------------------------------------------------------------*/
+.aromatherapy{
+  padding-top: 4.5rem; 
+}
+.aromatherapy_content{
+  background: #f2e7d6;
+  margin-top: -72px;
+  padding-top: 72px;
+}
+.aromatherapy_list{
+  background: #fff;
+  margin-top: -72px;
+  padding-top: 72px;
+}
+.aro_bg_img {
+    background: linear-gradient(rgb(231, 230, 232, .90), rgb(249, 249, 250, .67)),url(../../images/aro.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
