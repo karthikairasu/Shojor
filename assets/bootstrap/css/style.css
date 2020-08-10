@@ -316,34 +316,15 @@
 /*--------------------------------------------------------------
 #contactus
 --------------------------------------------------------------*/
-.get_in_touch{
+.contactus{
   padding-top: 4.5rem; 
 }
-.get_in_touch_content{
-  background: #f2e7d6;
-  margin-top: -72px;
-  padding-top: 72px;
-}
-.get_in_touch_list{
-  background: #fff;
-  margin-top: -72px;
-  padding-top: 0px;
-}
-.get_in_touch_bg_img {
-    background: linear-gradient(rgb(231, 230, 232, 1), rgb(249, 249, 250, 1)),url(../../images/aro.png);
+.contactus_bg_img {
+    margin-top: -72px;
+    padding-top: 72px;
+    background: linear-gradient(rgb(241, 230, 213, .70), rgb(241, 230, 213, .60)),url(../../images/contactus.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.get_in_touch_top:before{
-    content: '';
-    background: url(../../images/get_top.png) top left no-repeat;
-    width: 110%;
-    height: 100%;
-    top: 60px;
-    left: 0px;
-    position: absolute;
-    background-size: contain;
-    opacity: .9;
 }
