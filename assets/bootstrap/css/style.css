@@ -71,6 +71,7 @@
 .fs-30{font-size: 30px!important;}
 .fs-33{font-size: 33px!important;}
 .fw-400{font-weight: 400;}
+.fw-600{font-weight: 600;}
 .fw-800{font-weight: 800;}
 .fw-bold{font-weight: bold;}
 .fs-italic{font-style: italic;}
@@ -240,6 +241,108 @@
     height: 100%;
     top: 60px;
     left: -6px;
+    position: absolute;
+    background-size: contain;
+    opacity: .9;
+}
+/*--------------------------------------------------------------
+#aboutus
+--------------------------------------------------------------*/
+.aboutus{
+  padding-top: 4.5rem; 
+}
+.aboutus_content{
+  background: #f2e7d6;
+  margin-top: -72px;
+  padding-top: 72px;
+}
+.aboutus_list{
+  background: #fff;
+  margin-top: -72px;
+  padding-top: 72px;
+}
+.aboutus_bg_img {
+    background: linear-gradient(rgb(231, 230, 232, .97), rgb(249, 249, 250, .90)),url(../../images/about.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutus_top:before{
+    content: '';
+    background: url(../../images/about_top.png) top left no-repeat;
+    width: 115%;
+    height: 100%;
+    top: 60px;
+    left: -6px;
+    position: absolute;
+    background-size: contain;
+    opacity: .9;
+}
+/*--------------------------------------------------------------
+#get in touch
+--------------------------------------------------------------*/
+.get_in_touch{
+  padding-top: 4.5rem; 
+}
+.get_in_touch_content{
+  background: #f2e7d6;
+  margin-top: -72px;
+  padding-top: 72px;
+}
+.get_in_touch_list{
+  background: #fff;
+  margin-top: -72px;
+  padding-top: 0px;
+}
+.get_in_touch_bg_img {
+    background: linear-gradient(rgb(231, 230, 232, 1), rgb(249, 249, 250, 1)),url(../../images/aro.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.get_in_touch_top:before{
+    content: '';
+    background: url(../../images/get_top.png) top left no-repeat;
+    width: 110%;
+    height: 100%;
+    top: 60px;
+    left: 0px;
+    position: absolute;
+    background-size: contain;
+    opacity: .9;
+}
+/*--------------------------------------------------------------
+#contactus
+--------------------------------------------------------------*/
+.get_in_touch{
+  padding-top: 4.5rem; 
+}
+.get_in_touch_content{
+  background: #f2e7d6;
+  margin-top: -72px;
+  padding-top: 72px;
+}
+.get_in_touch_list{
+  background: #fff;
+  margin-top: -72px;
+  padding-top: 0px;
+}
+.get_in_touch_bg_img {
+    background: linear-gradient(rgb(231, 230, 232, 1), rgb(249, 249, 250, 1)),url(../../images/aro.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.get_in_touch_top:before{
+    content: '';
+    background: url(../../images/get_top.png) top left no-repeat;
+    width: 110%;
+    height: 100%;
+    top: 60px;
+    left: 0px;
     position: absolute;
     background-size: contain;
     opacity: .9;
